@@ -127,7 +127,7 @@ button:hover {
 }
 
 .fotoProjeto img {
-    width: 570px;
+    width: 460px;
 }
 
 h1,
@@ -142,7 +142,7 @@ footer {
     padding: 15px 10px;
     margin-top: 30px;
     font-size: 14px;
-    position: fixed;
+    position: relative;
     bottom: 0;
     left: 0;
     width: 100%;
