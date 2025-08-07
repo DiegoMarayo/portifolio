@@ -84,13 +84,6 @@ button:hover {
     background-color: #555;
 }
 
-#meuPortifolio {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 50px;
-    padding: 10px;
-    text-align: center;
-}
-
 /* Responsivo para celulares */
 @media(max-width: 600px) {
     nav {
@@ -121,9 +114,11 @@ button:hover {
     align-items: center;
 }
 
-.fotoProjeto img {
-    width: 460px;
+.fotoProjeto , .pizzas img {
+    width: 400px;
 }
+
+
 
 h1,
 h2 {
