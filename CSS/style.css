@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+nav {
+    background-color: #222;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    border: 2px solid #444;
+    margin-bottom: 20px;
+}
+
+nav a {
+    background-color: #555;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover {
+    background-color: #777;
+    transition: 0.3s;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+    margin: 10px;
+}
+
+form {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 96%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Responsivo para celulares */
+@media(max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    nav a {
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+    }
+
+    form{
+        width: 90%;
+        padding: 10px;
+    }
+
+    .foto img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .fotoProjeto img, .pizzas img{
+        width: 100%;
+    }
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.foto img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    border: 5px solid #222;
+}
+
+.pizzas, .fotoProjeto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px auto;
+    max-width: 1000px;
+
+}
+
+.fotoProjeto img , .pizzas img {
+    width: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: transition 0.3s;
+}
+
+.pizzas img:hover , .fotoProjeto img:hover{
+    transform: scale(1.05);
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 15px 10px;
+    margin-top: 30px;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+ 
+}
