@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
@@ -91,18 +95,20 @@ button:hover {
         padding: 15px;
     }
 
-    form{
+    form {
         width: 90%;
         padding: 10px;
     }
 
-    .foto img{
-        width: 150px;
-        height: 150px;
+    .foto img {
+        width: 90%;
+        height: auto;
     }
 
-    .fotoProjeto img, .pizzas img{
-        width: 100%;
+    .fotoProjeto img,
+    .pizzas img {
+        width: 90%;
+        height: auto;
     }
 }
 
@@ -120,7 +126,8 @@ button:hover {
     border: 5px solid #222;
 }
 
-.pizzas, .fotoProjeto{
+.pizzas,
+.fotoProjeto {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -130,7 +137,8 @@ button:hover {
 
 }
 
-.fotoProjeto img , .pizzas img {
+.fotoProjeto img,
+.pizzas img {
     width: 400px;
     object-fit: cover;
     border-radius: 10px;
@@ -138,7 +146,8 @@ button:hover {
     transition: transition 0.3s;
 }
 
-.pizzas img:hover , .fotoProjeto img:hover{
+.pizzas img:hover,
+.fotoProjeto img:hover {
     transform: scale(1.05);
 }
 
@@ -161,5 +170,5 @@ footer {
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
- 
+
 }
