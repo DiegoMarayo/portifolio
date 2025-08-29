@@ -35,6 +35,12 @@ nav a:hover {
     transition: 0.3s;
 }
 
+nav a.active{
+    background-color: #999;
+    color: black;
+    font-weight: bold;
+}
+
 #texto{
     font-family: monospace;
     font-size: 28px;
