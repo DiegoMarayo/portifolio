@@ -185,3 +185,19 @@ footer {
     text-align: center;
 
 }
+
+footer .social-links{
+    margin-top: 5px;
+}
+
+footer .social-links a {
+    color: #ccc;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer .social-links a:hover {
+    color: #fff;
+}
